@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri:
+logging:
+  level:
+    root: info
+    com.gggitpl.flink: debug
+    org.springframework.data.mongodb.core: debug
